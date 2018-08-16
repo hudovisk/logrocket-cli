@@ -22,6 +22,9 @@
     "test:mocha": "mocha --opts test/mocha.opts dist/**/*.spec.js",
     "test": "npm run build && npm run test:mocha"
   },
+  "yargs": {
+    "parse-numbers": false
+  },
   "dependencies": {
     "babel-runtime": "^6.20.0",
     "glob": "^7.1.1",
